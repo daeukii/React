@@ -11,6 +11,9 @@ import StateComp from './components/StateComp';
 
 import EventComp from './components/EventComp';
 
+import RefDomEvent from './components/RefDomEvent';
+import MapComp from './components/MapComp';
+
 
 /** 리액트에서 오류가 뜨는 이유 
  * 1. 존재하지 않는 컴포넌트 출력 
@@ -46,6 +49,11 @@ function App() {
       
       {/** 이벤트 */}
       <EventComp />
+      {/** RefDom */}
+      <RefDomEvent />
+
+      {/** 컴포넌트의 반복 */}
+      <MapComp />
     </div>
   );
 }
