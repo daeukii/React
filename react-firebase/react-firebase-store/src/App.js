@@ -10,7 +10,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/firestore' element={<FireStoreTest />} />
+        <Route path='/firestore' element={<FireStoreTest/>} />
       </Routes>
     </div>
   );
