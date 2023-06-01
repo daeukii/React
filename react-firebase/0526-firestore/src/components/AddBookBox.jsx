@@ -53,7 +53,7 @@ export default function AddBookBox({ getBook }) {
                 }}
             />{" "}
             <br />
-            <button type="submit">추가</button>
+            <button type="submit">추가하기</button>
         </form>
     )
 }
